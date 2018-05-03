@@ -8,7 +8,6 @@
 using namespace std;
 Ran ran(time(NULL));
 
-
 double generateGaussianNoise(const double& mean, const double &stdDev);
 
 
