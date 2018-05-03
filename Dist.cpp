@@ -5,6 +5,7 @@
 #include "nr3.h"
 #include "ran.h"
 
+
 using namespace std;
 Ran ran(time(NULL));
 
