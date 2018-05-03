@@ -5,12 +5,10 @@
 #include "nr3.h"
 #include "ran.h"
 
-
 using namespace std;
 Ran ran(time(NULL));
 
 double generateGaussianNoise(const double& mean, const double &stdDev);
-
 
 int main ( int argc, char *argv[] ){
   int N = atoi(argv[1]);  /* Sample numbers */
